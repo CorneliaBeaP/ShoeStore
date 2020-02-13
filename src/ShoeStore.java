@@ -11,7 +11,7 @@ public class ShoeStore {
     JLabel usernameLabel = new JLabel("Användarnamn:");
     JLabel passwordLabel = new JLabel("Lösenord:");
     JTextField usernametf = new JTextField(20);
-    JTextField passwordtf = new JTextField(20);
+    JPasswordField passwordtf = new JPasswordField(20);
     JButton aButton = new JButton("Logga in");
     Repository repository = new Repository();
     List<Customer> allcustomers = repository.getAllCustomers();
